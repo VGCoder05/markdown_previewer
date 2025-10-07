@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
 body{
-    font-size: 0.75rem !important;
+    font-size: 1em !important;
+}
+@media (max-widith:760px) {
+
+    body{
+        font-size: 0.75rem !important;
+    }
 }
